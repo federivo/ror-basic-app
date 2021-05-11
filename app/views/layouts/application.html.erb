@@ -12,6 +12,16 @@
   </head>
 
   <body>
-    <%= yield %>
+
+  <!-- Header --> 
+
+  <%= render "common/header" %>
+
+  <!-- /Header --> 
+
+  <%= yield %>
+  
+  <%= render "common/footer" %>
+
   </body>
 </html>
